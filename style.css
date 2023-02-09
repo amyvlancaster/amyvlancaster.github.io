@@ -2,113 +2,77 @@
     font-family: 'Raleway', sans-serif;
     color: #777;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
+h5 {
+    font-weight: bold !important;
+}
+h6 {
+    text-align: center;
+    margin-top: 20px !important;
+    font-weight: bold !important;
+}
 a {
     color: #E39695 !important;
     text-decoration: none !important;
     transition: ease-in-out .3s;
 }
-
 a:hover {
     color: #DA5552 !important;
 }
-
 #home, #contact, #about {
     padding: 50px 20px;
 }
-
 /*Nav*/
 a.navbar-brand, h1, h2 {
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
 }
-
 ul.navbar-nav {
     float: right;
     text-align: right;
 }
-
 /*Home*/
 #home {
     text-align: center;
     overflow: hidden;
 }
-
 img.intro-gif {
     width: 60px;
 }
-
 img.portfolio-img {
     box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
     margin-bottom: 20px;
 }
-
 /*About*/
 #about {
     max-width: 992px;
     margin: 0 auto;
 }
-
 .about-site-title {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
 }
-
 .about-img-col {
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
-
 .about-img {
     margin-bottom: 20px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
 }
-
-/*Work*/
-
-/*Contact*/
-#contact {
-    max-width: 992px;
-    margin: 0 auto;
-}
-
-.contact-site-title {
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-label, span.contact-label {
-    font-weight: bold;
-}
-
-label.contact {
-    font-weight: normal;
-}
-
-input[type=text], input[type=email], input[type=number] {
-    width: 100%;
-}
-
-input[type=submit] {
-    background-color: #E39695;
-    border: none;
-    color: #fff;
-    padding: 10px 13px;
+.fa-linkedin {
+    color: #E39695;
     transition: ease-in-out .3s;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
 }
-
-input[type=submit]:hover {
-    background-color: #DA5552;
+.fa-linkedin:hover {
+    color: #DA5552;
 }
+/*Work*/
 
 /*Footer*/
 div.container-fluid.footer {
