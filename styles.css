@@ -1,0 +1,124 @@
+/*Notes
+#f2f3ee - white
+#b6aaae - grayish purple
+#bd8a5a - orange
+    - main cta's 
+#9e6a70 - soft dark pink
+#2c2120 - dark chocolate brown 
+    - jumbotron gradient
+----------------*/
+
+/*General styles
+----------------*/
+body {
+    color: #2c2120 !important; 
+    background-color: #f2f3ee;
+    font-family: "Raleway", sans-serif;
+}
+main {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+a {
+    color: #bd8a5a;
+}
+a:hover {
+    color: #9c7047;
+}
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+}
+.btn-primary {
+    background-color: #bd8a5a !important;
+    border: none !important;
+    color: #F2F3EE !important;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+.btn-primary:hover {
+    background-color: #a1744b !important;
+}
+/*Navigation
+----------------*/
+nav {
+    background-color: #bd8a5a;
+    font-size: 12px;
+}
+nav a {
+    color: #f2f3ee !important;
+}
+.navbar-brand {
+    font-family: "Playfair Display", serif;
+}
+#navbarSupportedContent {
+    text-align: right;
+}
+/*Index
+----------------*/
+h2, #work .coming-soon {
+    padding-bottom: 20px;
+}
+#work h2 {
+    padding-bottom: 0px;
+}
+#about, #education, #experience,
+#skills, #accolades, #work,
+#contact {
+    padding: 50px 20px;
+}
+/*Hero*/
+ .jumbotron {
+    background: linear-gradient(90deg, rgba(44, 33, 32, 0.7) 0%, rgba(44, 33, 32, 0.7) 44%, rgba(44, 33, 32, 0.7) 88%),
+        url('images/index/jumbo-img.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.jumbotron .container h1,
+.jumbotron .container p {
+    color: #F2F3EE !important;
+    font-weight: 500;
+}
+.jumbotron .container {
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px;
+
+}
+/*About*/
+.about-bio {
+    text-align: center;
+}
+.about-img {
+    border: 3px solid #2c2120;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    max-width: 200px !important;
+}
+.contact-icons i {
+    padding: 5px;
+}
+/*Credits
+----------------*/
+
+/*Footer
+----------------*/
+footer {
+    font-size: 12px;
+}
+/*Breakpoints
+----------------*/
+@media screen and (min-width: 768px) {
+    .jumbotron .container {
+        width: 600px;
+    }
+    /*About*/
+    .about-bio {
+        text-align: left;
+        position: relative;
+        left: 50px;
+    }
+    .about-img {
+        margin-bottom: 0px;
+    }
+}
