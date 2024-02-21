@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Amy Lancaster's web design portfolio">
+    <meta name="author" content="Amy Lancaster">
+    <title>Amy Lancaster: Web Designer</title>
+    <head>
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/41d234f769.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- Navigation Bar and title -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Amy Lancaster</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#work">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">CONTACT</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Main Content -->
+        <main>
+          <article class="title text-center">
+            <h1>TDS Fiber&mdash;Geographic Information System Maps Implementation</h1>
+          </article>
+          <article class="client">
+            <h2>The Client</h2>
+            <p><strong>TDS Telecommunications LLC (TDS Telecom/TDS<sup>&reg;</sup>)</strong> delivers high-speed 
+              internet, TV entertainment, and phone services to a mix of small to mid-sized urban, suburban and
+              rural communities throughout the U.S. With 1.2 million connections, TDS is a rapidly growing 
+              technology company. Powered by fiber-optics and new industry-leading technologies, TDS delivers 
+              up to 8 Gigabit internet speeds and offers internet-protocol based TV entertainment solutions 
+              along with traditional phone services. TDS also offers businesses VoIP advanced communications 
+              solutions, dedicated internet service, data networking, and hosted-managed services.</p>
+            <p><strong>TDS Fiber</strong> is a subsection of TDS Telecom which provides fiber network services 
+              to rural and suburban communities. During the time of this project, TDS Fiber was mostly in a 
+              pre-launch stage, so there was a dedicated status section for prospective customers to check 
+              on their community to see the build status of fiber optic network in their area.</p>
+          </article>
+          <article class="challenge">
+            <h2>The Challenge</h2>
+            <p>Prior to the use of GIS maps, the status pages of TDS Fiber would display a static image of the area the user
+              was searching for. This caused a number of issues for both the end-user and behind the scenes within the company.</p>
+              <ul>
+                <li>Maps on TDS Fiber showing the status of builds in dedicated fiber networks/neighborhoods (DFN) could not update in real-time.</li>
+                <li>Time and budgets were used towards having a dedicated associate resize and upload maps for every DFN&mdash;this work could 
+                  take days or weeks before the updates were implemented.</li>
+                <li>Because of these time-consuming updates, maps on the front-end could be out-of-date for a number or days, or even <em>weeks</em>.</li>
+              </ul>
+          </article>
+          <article class="solution">
+            <h2>The Solution</h2>
+            <p>Implementing GIS maps for these status pages was the logical solution for this challenge. Four software engineers from the IT team who specialized in user experience,
+              as well as one web designer from the digital operations team within the marketing department, were tasked to create a GIS map that accomodated for all the possible addresses within the TDS Fiber management system and could be placed on the status 
+              pages on TDS Fiber. These maps would be custom based on the address the user entered to view this page. If the map could not display for whatever reason 
+              (browser incompatibility, the speed of the user's internet, etc.), a message would display to the user with information on other methods to obtain the status
+              of the build of their neighborhood.</p>
+            <p>My role in this project was to design the look and feel of the map, as well as adhere to accessibility guidelines. I chose the color scheme for the map, the font and 
+              font size, the colors for the map legend symbols, and suggested the implementation of light and dark mode that can be toggled in real-time. I was also responsible for
+              the code placement of the map on the actual page.</p>
+          </article>
+          <article class="results">
+            <h2>The Results</h2>
+            <p>Because of this solution:</p>
+            <p>
+              <ul>
+                <li>The end-user could now get up-to-the-minute information about their DFN;</li>
+                <li>The maps were now interactive and could be adjusted to the user's preferred settings;</li>
+                <li>The need to have a dedicated associate internally to update static images of the maps was eliminated, saving both time and money for TDS.</li>
+              </ul>
+            </p>
+            <p>This project earned the team an internal "Inspiring Excellence Award" in 2022.</p>
+          </article>
+          <article class="images">
+            <div class="row">
+              <div class="col-md-6">
+                <p><img class="img-fluid" src="images/gis-map/gis-map-light.png" alt="The GIS map from TDS Fiber in light mode"></p>
+              </div>
+              <div class="col-md-6">
+                <p><img class="img-fluid" src="images/gis-map/gis-map-dark.png" alt="The GIS map from TDS Fiber in dark mode"></p>
+              </div>
+            </div>
+          </article>
+        </main>
+        <!-- Footer -->
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="credits.html" class="px-2">Credits</a></li>
+              <li class="nav-item"><a href="#top" class="px-2">Back to top</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; <script>document.write( new Date().getFullYear() );</script> Amy Lancaster. All rights reserved.</p>
+          </footer>
+        </div>
+    </body>
+</html>
